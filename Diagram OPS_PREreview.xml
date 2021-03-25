@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T20:54:42.245Z" agent="5.0 (Macintosh)" etag="2yHnFDrf-_Ifd8Wpv8tD" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T20:54:55.460Z" agent="5.0 (Macintosh)" etag="JBWLnytzOiJzjqAbrzoZ" version="14.5.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1676" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -335,7 +335,7 @@
           <mxGeometry x="523.99" y="1363.77" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HOCNPtZxLSSD363JN4Ea-1" value="&lt;div&gt;DS comment: At the time of &lt;br&gt;&lt;/div&gt;&lt;div&gt;submission, author can opt &lt;br&gt;&lt;/div&gt;&lt;div&gt;in to have PREreview &lt;br&gt;&lt;/div&gt;&lt;div&gt;community review the preprint&lt;/div&gt;&lt;div&gt; if published.&lt;/div&gt;&lt;div&gt;We can have space in which&lt;/div&gt;&lt;div&gt;author can even specify if they&lt;/div&gt;&lt;div&gt;have any particular feedback &lt;br&gt;&lt;/div&gt;&lt;div&gt;they would like. &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="670" y="230.99" width="180" height="130" as="geometry" />
+          <mxGeometry x="680" y="230.99" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="HOCNPtZxLSSD363JN4Ea-3" value="&lt;div&gt;DS question: Not sure I&lt;/div&gt;&lt;div&gt;understand what &quot;The plugin &lt;br&gt;&lt;/div&gt;&lt;div&gt;validates if the manuscript is &lt;br&gt;&lt;/div&gt;&lt;div&gt;suitable to send to PREreview&quot; &lt;br&gt;&lt;/div&gt;&lt;div&gt;means. &lt;br&gt;&lt;/div&gt;&lt;div&gt;My understanding is that if &lt;br&gt;&lt;/div&gt;&lt;div&gt;the author who is submitting&lt;/div&gt;&lt;div&gt;the preprint has opted in for&lt;/div&gt;&lt;div&gt;reviews from PRE community,&lt;/div&gt;&lt;div&gt;then there will be a request&lt;/div&gt;&lt;div&gt;sent to our website that will&lt;/div&gt;&lt;div&gt;trigger the addition of that &lt;br&gt;&lt;/div&gt;&lt;div&gt;preprint to PRE+request for&lt;/div&gt;&lt;div&gt;review by the author signal&lt;/div&gt;&lt;div&gt;(UI TBD). &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="680" y="602.99" width="180" height="220" as="geometry" />
