@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T20:54:55.460Z" agent="5.0 (Macintosh)" etag="JBWLnytzOiJzjqAbrzoZ" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T16:29:07.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="7yIxZsEDluAiqnZrInGI" version="14.5.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1676" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,81 +88,54 @@
         <mxCell id="q_g9lx83axrcmE_-QV5X-21" value="Editor publishes the manuscript" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="278.87" y="549.99" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-24" value="" style="endArrow=none;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="302.7400000000001" y="584.99" as="sourcePoint" />
-            <mxPoint x="302.7400000000001" y="612.99" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-25" value="" style="endArrow=none;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="183.74000000000012" y="612.99" as="sourcePoint" />
-            <mxPoint x="423.7400000000001" y="612.99" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-26" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="183.74000000000012" y="612.99" as="sourcePoint" />
-            <mxPoint x="183.74000000000012" y="652.99" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-27" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="423.7400000000001" y="612.99" as="sourcePoint" />
-            <mxPoint x="423.7400000000001" y="652.99" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="q_g9lx83axrcmE_-QV5X-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="83.74" y="672.99" as="targetPoint" />
+            <mxPoint x="190" y="623" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="4krowXub2ZCjeIlhoviA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q_g9lx83axrcmE_-QV5X-29" target="q_g9lx83axrcmE_-QV5X-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-29" value="Does the author have ORCID?" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="143.74" y="652.99" width="100" height="40" as="geometry" />
+          <mxGeometry x="258.36" y="602.99" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="q_g9lx83axrcmE_-QV5X-31" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="523.7400000000001" y="682.99" as="targetPoint" />
+            <mxPoint x="460" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-31" value="Does the published manuscript have an active DOI?" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="363.74" y="652.99" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-32" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="q_g9lx83axrcmE_-QV5X-29" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="233.74" y="742.99" as="sourcePoint" />
-            <mxPoint x="353.7400000000001" y="672.99" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="248.87" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-33" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="303.7400000000001" y="672.99" as="sourcePoint" />
-            <mxPoint x="303.86" y="734.99" as="targetPoint" />
+            <mxPoint x="294.7400000000001" y="718.99" as="sourcePoint" />
+            <mxPoint x="294.86" y="780.99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-34" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="280.99" y="642.99" width="40" height="20" as="geometry" />
+          <mxGeometry x="235.12" y="720" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-35" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="483.74" y="652.99" width="30" height="20" as="geometry" />
+          <mxGeometry x="368.87" y="668.99" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-36" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="103.74" y="650.99" width="30" height="20" as="geometry" />
+          <mxGeometry x="206.8" y="600.99" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-37" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Users.svg;" parent="1" vertex="1">
-          <mxGeometry x="533.49" y="646.99" width="44.5" height="48.67" as="geometry" />
+          <mxGeometry x="472.48" y="650" width="44.5" height="48.67" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-38" value="Editor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="531.99" y="675.6599999999999" width="50" height="20" as="geometry" />
+          <mxGeometry x="470.98" y="678.6699999999998" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-39" value="Editor must activate DOI" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="523.99" y="692.99" width="80" height="30" as="geometry" />
+          <mxGeometry x="462.98" y="696" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-40" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#2072B8;" parent="1" vertex="1">
-          <mxGeometry x="33.739999999999995" y="642.99" width="45.5" height="46" as="geometry" />
+          <mxGeometry x="137.87" y="572.99" width="45.5" height="46" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-41" value="Author" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="29.239999999999995" y="670.99" width="50" height="20" as="geometry" />
+          <mxGeometry x="133.37" y="600.99" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-42" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Users.svg;" parent="1" vertex="1">
           <mxGeometry x="229.62" y="207.32" width="44.5" height="48.67" as="geometry" />
@@ -176,59 +149,56 @@
         <mxCell id="q_g9lx83axrcmE_-QV5X-45" value="Author" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="179.37" y="121.82999999999997" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-46" value="Author gets ORCID" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="23.740000000000002" y="688.99" width="100" height="37" as="geometry" />
-        </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-47" value="Plugin generates list of manuscripts suitable to send to PREreview" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="281.86" y="729.99" width="140" height="50" as="geometry" />
+          <mxGeometry x="272.86" y="775.99" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-48" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.view_list" parent="1" vertex="1">
-          <mxGeometry x="244.81000000000003" y="736.99" width="32.4" height="40" as="geometry" />
+          <mxGeometry x="235.81000000000003" y="782.99" width="32.4" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-49" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA0CAYAAAAew7HJAAABmklEQVRoBe2ZMarCQBCGvZN3sPACFpYabHIFCwU9gAQDIRew0xuIoGgKD2AjAQtLQXivsPgfqwgJ7i4hO7M8YYTBzazz7+dnSGMDX/hqfCEzBNrXryamxbTFgNweFjmkW0bTl8sFo9EIw+HQawVBgMPhYP2SRmgFPJ/PcT6fvdZyuUSv16sHPZvNkGWZdZhj83a7IQxDa7TRtEBbvZU3xXTZB9+VmOZzW05mM73f70FRZdzXFRv0drtFFEXO5RVadxhVj800FaAuR6B1Vjh6YprDqi5TTBetqOf0er12rmLme81mWkGnaepcb9DiOxt08RDqtUBTGzXliWmTGeq+mKY2aspjM62e05vNxrl04KzQSZLAtbxC6w6j6rGZpgLU5Qi0zgpHT0yTWb3frVH/03S/DywWRnAn6MlkgjiOcTqdSOun2wWaTfx2OsBu9wGvoPM8/+gXG8Z/Aq7XK6bTKcbjMWnlrdYTWoFjMACOxyJPpbURutJ0nQ+p26PdBlarOtPPGf/QUQQ8HrWB1aB/aCfc17BAE0isFPEH2bYMwrNCLIYAAAAASUVORK5CYII=;" parent="1" vertex="1">
-          <mxGeometry x="277.85999999999996" y="874.99" width="51.92" height="60" as="geometry" />
+          <mxGeometry x="268.85999999999996" y="920.99" width="51.92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-50" value="Revisions are recorded in PREreview" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="236.8" y="924.99" width="124.63" height="40" as="geometry" />
+          <mxGeometry x="227.8" y="970.99" width="124.63" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-51" value="Plugin gets API data from PREreview" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="242.36" y="1034.99" width="113.5" height="41.25" as="geometry" />
+          <mxGeometry x="233.36" y="1080.99" width="113.5" height="41.25" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-52" value="Are there reviews?" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="374.23" y="1232.76" width="105" height="30" as="geometry" />
+          <mxGeometry x="365.23" y="1278.76" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-53" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="539.98" y="1272.76" width="40" height="20" as="geometry" />
+          <mxGeometry x="530.98" y="1318.76" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-54" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="444.73" y="1252.76" as="sourcePoint" />
-            <mxPoint x="535.98" y="1271.51" as="targetPoint" />
+            <mxPoint x="435.73" y="1298.76" as="sourcePoint" />
+            <mxPoint x="526.98" y="1317.51" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-55" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="405.18000000000006" y="1252.76" as="sourcePoint" />
-            <mxPoint x="305.98" y="1272.51" as="targetPoint" />
+            <mxPoint x="396.18000000000006" y="1298.76" as="sourcePoint" />
+            <mxPoint x="296.98" y="1318.51" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="q_g9lx83axrcmE_-QV5X-57" target="q_g9lx83axrcmE_-QV5X-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-57" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="273.86" y="1272.76" width="30" height="20" as="geometry" />
+          <mxGeometry x="264.86" y="1318.76" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-58" value="" style="endArrow=classic;html=1;exitX=0.625;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="q_g9lx83axrcmE_-QV5X-53" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="357.48" y="1352.76" as="sourcePoint" />
-            <mxPoint x="564.98" y="1321.51" as="targetPoint" />
+            <mxPoint x="348.48" y="1398.76" as="sourcePoint" />
+            <mxPoint x="555.98" y="1367.51" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-60" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.barChart;strokeColor=none;strokeColor2=none;strokeColor3=#666666;fillColor2=#008cff;fillColor3=#dddddd;" parent="1" vertex="1">
-          <mxGeometry x="551.98" y="1323.77" width="40" height="40" as="geometry" />
+          <mxGeometry x="542.98" y="1369.77" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-61" value="Show message: No reviews yet" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="228.36" y="1323.77" width="121" height="30" as="geometry" />
+          <mxGeometry x="219.36" y="1369.77" width="121" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-62" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -246,51 +216,51 @@
           <mxGeometry x="661" y="550" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-67" value="Editor sends DOI to PREreview API" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="247.74" y="814.99" width="110" height="30" as="geometry" />
+          <mxGeometry x="238.74" y="860.99" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="q_g9lx83axrcmE_-QV5X-47" target="q_g9lx83axrcmE_-QV5X-67" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="303.81000000000006" y="854.99" as="targetPoint" />
-            <mxPoint x="302.86" y="783.99" as="sourcePoint" />
+            <mxPoint x="294.81000000000006" y="900.99" as="targetPoint" />
+            <mxPoint x="293.86" y="829.99" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="302.2400000000001" y="880.99" as="targetPoint" />
-            <mxPoint x="302.34000000000003" y="849.99" as="sourcePoint" />
+            <mxPoint x="293.2400000000001" y="926.99" as="targetPoint" />
+            <mxPoint x="293.34000000000003" y="895.99" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-70" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/fatcow/32x32/plugin.png;rotation=90;" parent="1" vertex="1">
-          <mxGeometry x="277.21000000000004" y="994.99" width="48.75" height="48.75" as="geometry" />
+          <mxGeometry x="268.21000000000004" y="1040.99" width="48.75" height="48.75" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300.4900000000001" y="991.99" as="targetPoint" />
-            <mxPoint x="300.59000000000003" y="960.99" as="sourcePoint" />
+            <mxPoint x="291.4900000000001" y="1037.99" as="targetPoint" />
+            <mxPoint x="291.59000000000003" y="1006.99" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-72" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/databases.svg;" parent="1" vertex="1">
-          <mxGeometry x="397.98" y="1322.76" width="62.75" height="61.5" as="geometry" />
+          <mxGeometry x="388.98" y="1368.76" width="62.75" height="61.5" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-73" value="OPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="406.73" y="1323.77" width="40" height="20" as="geometry" />
+          <mxGeometry x="397.73" y="1369.77" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-74" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340.73" y="1342.76" as="sourcePoint" />
-            <mxPoint x="390.98" y="1342.51" as="targetPoint" />
+            <mxPoint x="331.73" y="1388.76" as="sourcePoint" />
+            <mxPoint x="381.98" y="1388.51" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-75" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="525.98" y="1341.51" as="sourcePoint" />
-            <mxPoint x="465.98" y="1341.51" as="targetPoint" />
+            <mxPoint x="516.98" y="1387.51" as="sourcePoint" />
+            <mxPoint x="456.98" y="1387.51" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="424.73" y="1232.51" as="targetPoint" />
-            <mxPoint x="424.8299999999999" y="1201.51" as="sourcePoint" />
+            <mxPoint x="415.73" y="1278.51" as="targetPoint" />
+            <mxPoint x="415.8299999999999" y="1247.51" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-85" value="&lt;ul&gt;&lt;li&gt;Before finalizing the &lt;br&gt;submission of the &lt;br&gt;manuscript, the plugin &lt;br&gt;will generate an option &lt;br&gt;so that the authors can &lt;br&gt;choose to show or not &lt;br&gt;the reviews&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
@@ -298,41 +268,41 @@
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="297.49" y="1107.24" as="targetPoint" />
-            <mxPoint x="297.5899999999999" y="1076.24" as="sourcePoint" />
+            <mxPoint x="288.49" y="1153.24" as="targetPoint" />
+            <mxPoint x="288.5899999999999" y="1122.24" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-88" value="Did the author choose to show reviews of his manuscript?" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="228.36" y="1112" width="160" height="50" as="geometry" />
+          <mxGeometry x="219.36" y="1158" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-104" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="400.86" y="1182" width="40" height="20" as="geometry" />
+          <mxGeometry x="391.86" y="1228" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-105" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="305.11" y="1162" as="sourcePoint" />
-            <mxPoint x="396.36" y="1180.75" as="targetPoint" />
+            <mxPoint x="296.11" y="1208" as="sourcePoint" />
+            <mxPoint x="387.36" y="1226.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-106" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="286.86000000000007" y="1162" as="sourcePoint" />
-            <mxPoint x="187.66000000000003" y="1181.75" as="targetPoint" />
+            <mxPoint x="277.86000000000007" y="1208" as="sourcePoint" />
+            <mxPoint x="178.66000000000003" y="1227.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="q_g9lx83axrcmE_-QV5X-108" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="123.74" y="1182" as="targetPoint" />
+            <mxPoint x="114.74" y="1228" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-108" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="153.11" y="1172" width="30" height="20" as="geometry" />
+          <mxGeometry x="144.11" y="1218" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-118" value="Do not show PREreview information" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="43.74" y="1157" width="100" height="30" as="geometry" />
+          <mxGeometry x="44.11" y="1198" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-119" value="Show reviews" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="523.99" y="1363.77" width="100" height="30" as="geometry" />
+        <mxCell id="q_g9lx83axrcmE_-QV5X-119" value="-Link to the reviews alone&lt;br&gt;-N&lt;span&gt;umber of reviews and&amp;nbsp;&lt;/span&gt;&lt;span&gt;requests&lt;br&gt;-D&lt;/span&gt;&lt;span&gt;isplay of reviews&lt;br&gt;&lt;/span&gt;&lt;span&gt;-Request to add review&lt;br&gt;&lt;/span&gt;&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="481" y="1409.77" width="180" height="56.23" as="geometry" />
         </mxCell>
         <mxCell id="HOCNPtZxLSSD363JN4Ea-1" value="&lt;div&gt;DS comment: At the time of &lt;br&gt;&lt;/div&gt;&lt;div&gt;submission, author can opt &lt;br&gt;&lt;/div&gt;&lt;div&gt;in to have PREreview &lt;br&gt;&lt;/div&gt;&lt;div&gt;community review the preprint&lt;/div&gt;&lt;div&gt; if published.&lt;/div&gt;&lt;div&gt;We can have space in which&lt;/div&gt;&lt;div&gt;author can even specify if they&lt;/div&gt;&lt;div&gt;have any particular feedback &lt;br&gt;&lt;/div&gt;&lt;div&gt;they would like. &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="680" y="230.99" width="180" height="130" as="geometry" />
@@ -343,11 +313,20 @@
         <mxCell id="pKP-rZ2Th9RBjMSyAXYF-5" value="ME comments: The plugin will validate that the manuscript has what is needed to be accepted in PREreview,&amp;nbsp; for example that the author has ORCID and that the manuscript has an active DOI, I will omit this text, so that it goes directly to the validations to avoid confusion." style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="680" y="822.99" width="150" height="177.01" as="geometry" />
         </mxCell>
-        <mxCell id="NvVRCgxL10QZtPn8lXic-1" value="&lt;div&gt;Thank you, Maria. Technically&lt;br&gt;&lt;/div&gt;&lt;div&gt;we don&#39;t need that the author &lt;br&gt;&lt;/div&gt;&lt;div&gt;has an ORCID iD to have a &lt;br&gt;&lt;/div&gt;&lt;div&gt;tag on the preprint that says &lt;br&gt;&lt;/div&gt;&lt;div&gt;the author has requested &lt;br&gt;&lt;/div&gt;&lt;div&gt;feedback. &lt;br&gt;&lt;/div&gt;&lt;div&gt;However, having the ORCID &lt;br&gt;&lt;/div&gt;&lt;div&gt;iD would make it easier &lt;br&gt;&lt;/div&gt;&lt;div&gt;and more clear which one of &lt;br&gt;&lt;/div&gt;&lt;div&gt;the author&amp;nbsp; made that request &lt;br&gt;&lt;/div&gt;&lt;div&gt;and also allow us to create an &lt;br&gt;&lt;/div&gt;&lt;div&gt;account for them on PREreview. &lt;br&gt;&lt;/div&gt;&lt;div&gt;This could be done via the API &lt;br&gt;&lt;/div&gt;&lt;div&gt;with author&#39;s consent.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="NvVRCgxL10QZtPn8lXic-1" value="&lt;div&gt;Thank you, Maria. Technically&lt;br&gt;&lt;/div&gt;&lt;div&gt;we don&#39;t need that the author &lt;br&gt;&lt;/div&gt;&lt;div&gt;has an ORCID iD to have a &lt;br&gt;&lt;/div&gt;&lt;div&gt;tag on the preprint that says &lt;br&gt;&lt;/div&gt;&lt;div&gt;the author has requested &lt;br&gt;&lt;/div&gt;&lt;div&gt;feedback. &lt;br&gt;&lt;/div&gt;&lt;div&gt;However, having the ORCID &lt;br&gt;&lt;/div&gt;&lt;div&gt;iD would make it easier &lt;br&gt;&lt;/div&gt;&lt;div&gt;and more clear which one of &lt;br&gt;&lt;/div&gt;&lt;div&gt;the author&amp;nbsp; made that request &lt;br&gt;&lt;/div&gt;&lt;div&gt;and also allow us to create an &lt;br&gt;&lt;/div&gt;&lt;div&gt;account for them on PREreview. &lt;br&gt;&lt;/div&gt;&lt;div&gt;This could be done via the API &lt;br&gt;&lt;/div&gt;&lt;div&gt;with author&#39;s consent.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="680" y="987" width="190" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="NvVRCgxL10QZtPn8lXic-2" value="&lt;div&gt;DS: we need to discuss &lt;br&gt;&lt;/div&gt;&lt;div&gt;with the group what level of &lt;br&gt;&lt;/div&gt;&lt;div&gt;display of the &lt;br&gt;&lt;/div&gt;&lt;div&gt;review they would like.&lt;/div&gt;&lt;div&gt;- Link to the reviews alone&lt;/div&gt;&lt;div&gt;- Link + number of reviews&lt;/div&gt;&lt;div&gt;- Link + number of reviews and &lt;br&gt;&lt;/div&gt;&lt;div&gt;requests&lt;/div&gt;&lt;div&gt;- Link + number of reviews,&lt;/div&gt;&lt;div&gt;requests, and display of reviews&lt;/div&gt;&lt;div&gt;- All the above + ability for users &lt;br&gt;&lt;/div&gt;&lt;div&gt;to add review and/or request &lt;br&gt;&lt;/div&gt;&lt;div&gt;directly from preprint server.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="NvVRCgxL10QZtPn8lXic-2" value="&lt;div&gt;DS: we need to discuss &lt;br&gt;&lt;/div&gt;&lt;div&gt;with the group what level of &lt;br&gt;&lt;/div&gt;&lt;div&gt;display of the &lt;br&gt;&lt;/div&gt;&lt;div&gt;review they would like.&lt;/div&gt;&lt;div&gt;- Link to the reviews alone&lt;/div&gt;&lt;div&gt;- Link + number of reviews&lt;/div&gt;&lt;div&gt;- Link + number of reviews and &lt;br&gt;&lt;/div&gt;&lt;div&gt;requests&lt;/div&gt;&lt;div&gt;- Link + number of reviews,&lt;/div&gt;&lt;div&gt;requests, and display of reviews&lt;/div&gt;&lt;div&gt;- All the above + ability for users &lt;br&gt;&lt;/div&gt;&lt;div&gt;to add review and/or request &lt;br&gt;&lt;/div&gt;&lt;div&gt;directly from preprint server.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="680" y="1272.76" width="190" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4krowXub2ZCjeIlhoviA-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="590" as="sourcePoint" />
+            <mxPoint x="302" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4krowXub2ZCjeIlhoviA-5" value="Optionally obtain the author&#39;s ORCID" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
