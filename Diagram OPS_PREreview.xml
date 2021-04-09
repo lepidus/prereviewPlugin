@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T16:29:07.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="7yIxZsEDluAiqnZrInGI" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T18:26:19.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="MfEDlxq1D6n91f4JHiNe" version="14.5.8" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
             <mxPoint x="190" y="623" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4krowXub2ZCjeIlhoviA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q_g9lx83axrcmE_-QV5X-29" target="q_g9lx83axrcmE_-QV5X-31">
+        <mxCell id="4krowXub2ZCjeIlhoviA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="q_g9lx83axrcmE_-QV5X-29" target="q_g9lx83axrcmE_-QV5X-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-29" value="Does the author have ORCID?" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -263,8 +263,8 @@
             <mxPoint x="415.8299999999999" y="1247.51" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-85" value="&lt;ul&gt;&lt;li&gt;Before finalizing the &lt;br&gt;submission of the &lt;br&gt;manuscript, the plugin &lt;br&gt;will generate an option &lt;br&gt;so that the authors can &lt;br&gt;choose to show or not &lt;br&gt;the reviews&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="100" width="180" height="130" as="geometry" />
+        <mxCell id="q_g9lx83axrcmE_-QV5X-85" value="&lt;ul&gt;&lt;li&gt;Before finalizing the &lt;br&gt;submission of the &lt;br&gt;manuscript, the plugin &lt;br&gt;will generate an option &lt;br&gt;for authors to request &lt;br&gt;comments to PREreview.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="662" y="110" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -319,13 +319,13 @@
         <mxCell id="NvVRCgxL10QZtPn8lXic-2" value="&lt;div&gt;DS: we need to discuss &lt;br&gt;&lt;/div&gt;&lt;div&gt;with the group what level of &lt;br&gt;&lt;/div&gt;&lt;div&gt;display of the &lt;br&gt;&lt;/div&gt;&lt;div&gt;review they would like.&lt;/div&gt;&lt;div&gt;- Link to the reviews alone&lt;/div&gt;&lt;div&gt;- Link + number of reviews&lt;/div&gt;&lt;div&gt;- Link + number of reviews and &lt;br&gt;&lt;/div&gt;&lt;div&gt;requests&lt;/div&gt;&lt;div&gt;- Link + number of reviews,&lt;/div&gt;&lt;div&gt;requests, and display of reviews&lt;/div&gt;&lt;div&gt;- All the above + ability for users &lt;br&gt;&lt;/div&gt;&lt;div&gt;to add review and/or request &lt;br&gt;&lt;/div&gt;&lt;div&gt;directly from preprint server.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="680" y="1272.76" width="190" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="4krowXub2ZCjeIlhoviA-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="4krowXub2ZCjeIlhoviA-4" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="302" y="590" as="sourcePoint" />
             <mxPoint x="302" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4krowXub2ZCjeIlhoviA-5" value="Optionally obtain the author&#39;s ORCID" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4krowXub2ZCjeIlhoviA-5" value="Optionally obtain the author&#39;s ORCID" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="620" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
