@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T18:26:19.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="MfEDlxq1D6n91f4JHiNe" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T19:44:28.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="jD9oTD_lGUdd67eP2tnc" version="14.5.8" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
             <mxPoint x="288.5899999999999" y="1122.24" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q_g9lx83axrcmE_-QV5X-88" value="Did the author choose to show reviews of his manuscript?" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="q_g9lx83axrcmE_-QV5X-88" value="Did the author request reviews from the PREreview community?" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="219.36" y="1158" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q_g9lx83axrcmE_-QV5X-104" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
