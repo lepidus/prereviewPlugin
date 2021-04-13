@@ -5,7 +5,7 @@ This is a repository to track content, manage projjects, and host code related t
 ## Useful links:
 PREreview website: https://prereview.org
 PREreview preprint review platform: https://prereview.org/reviews
-PREreview API endpoints and documentantion (under construction): https://prereview.org/api 
+PREreview API endpoints and documentantion https://content.prereview.org/api/
 
 ## About PREreview
 PREreview is an open project that operates as a non-profit organization via fiscal sponsorship of Code for Science and Society. PREreview’s mission is to bring more diversity and equity to scholarly peer review by supporting and empowering researchers to review preprints, in particular early-career researchers from groups underrepresented in scholarship.
