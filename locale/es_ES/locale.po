@@ -1,0 +1,127 @@
+msgid "plugins.generic.prereview.title"
+msgstr "PREreview"
+
+msgid "plugins.generic.prereview.description"
+msgstr "Este plugin permite a los autores solicitar comentarios constructivos sobre su preprint a la comunidad de investigadores de PREreview (https://prereview.org/reviews)."
+
+msgid "plugins.generic.prereview.apisettings"
+msgstr "Configure las claves de acceso a la API de PREreview para solicitar reseñas a la comunidad de PREreview."
+
+msgid "plugins.generic.prereview.apisettings.title"
+msgstr "Claves API"
+
+msgid "plugins.generic.prereview.apisettings.name"
+msgstr "API" 
+
+msgid "plugins.generic.prereview.apisettings.key"
+msgstr "LLave"
+
+msgid "plugins.generic.prereview.apisettings.option"
+msgstr "Configuración de PREreview"
+
+msgid "plugins.generic.prereview.apisettings.optionDescription"
+msgstr "En PREreview, los revisores pueden proporcionar comentarios rápidos y estructurados en formato de Rapid PREreview (por ejemplo, ___), y una revisión más larga de forma libre, una Full PREreview (por ejemplo, ___)."
+
+msgid "plugins.generic.prereview.apisettings.optionDescription.ask"
+msgstr "¿Qué reseñas del sitio de PREreview le gustaría que aparecieran?"
+
+msgid "plugins.generic.prereview.apisettings.showrevisions"
+msgstr "Mostrar solo revisiones rapidas"
+
+msgid "plugins.generic.prereview.apisettings.showrevisionsLong"
+msgstr "Mostrar solo revisiones largas"
+
+msgid "plugins.generic.prereview.apisettings.showrevisionsBoth"
+msgstr "Mostrar revisiones rapidas y largas"
+
+msgid "plugins.generic.prereview.view.message"
+msgstr "No se ha registrado ninguna reseña"
+
+msgid "plugins.generic.prereview.view.textRapidReview"
+msgstr "PREreviews rapidas"
+
+msgid "plugins.generic.prereview.view.textLongReview"
+msgstr "PREreviews completas"
+
+msgid "plugins.generic.prereview.view.textRequest"
+msgstr "Solicitudes"
+
+msgid "plugins.generic.prereview.view.textRequests"
+msgstr "Solicitud"
+
+msgid "plugins.generic.prereview.view.textViewSite"
+msgstr "Ver en el sitio de PREreview"
+
+msgid "plugins.generic.prereview.publication.success"
+msgstr "Datos guardados correctamente"
+
+msgid "plugins.generic.prereview.description.p1"
+msgstr "PREreview es una plataforma de revisión de preprints gratuita y de código abierto, un centro de recursos y un convocante. A través de la plataforma PREreview, cualquier investigador con un ORCID puede aportar comentarios constructivos a un preprint."
+
+msgid "plugins.generic.prereview.description.p2"
+msgstr "Ahora puede solicitar los comentarios de sus compañeros a través de este plugin y elegir que se muestren abiertamente junto a su preprint en este servidor de preprints."
+
+msgid "plugins.generic.prereview.description.p3"
+msgstr "Para saber más sobre el funcionamiento de la plataforma PREreview, <a href="https://prereview.org/" target=\"_blank\">lea aquí</a>. Si tiene preguntas o dudas sobre lo que esto significa, póngase en contacto con PREreview en contact@prereview.org."
+
+msgid "plugins.generic.prereview.description.buttoncheck"
+msgstr "Sí, por favor, haga saber a la comunidad de PREreview que me gustaría solicitar comentarios constructivos sobre mi preprint y que se muestren junto a mi preprint."
+
+msgid "plugins.generic.prereview.description.notdisplay"
+msgstr "Sí, por favor, haga saber a la comunidad investigadora de PREreview que me gustaría recibir comentarios constructivos sobre mi preprint PERO NO me gustaría que se mostraran junto a mi preprint."
+
+msgid "plugins.generic.prereview.description.notsolicit"
+msgstr "No, no deseo solicitar comentarios constructivos de la comunidad investigadora de PREreview."
+
+msgid "plugins.generic.prereview.semaphore.author"
+msgstr "Se identificó la declaración de contribución del autor"
+
+msgid "plugins.generic.prereview.semaphore.authorFalse"
+msgstr "No hay autores identificados"
+
+msgid "plugins.generic.prereview.semaphore.orcidTrue"
+msgstr "El ORCID del autor correspondiente ha sido identificado correctamente."
+
+msgid "plugins.generic.prereview.semaphore.orcidFalse"
+msgstr "El ORCID del autor correspondiente no fue identificado."
+
+msgid "plugins.generic.prereview.semaphore.metadata"
+msgstr "Los siguientes metadatos no se encuentran en todos los idiomas configurados: "
+
+msgid "plugins.generic.prereview.question.ynNovel"
+msgstr "¿Son novedosos los resultados?"
+
+msgid "plugins.generic.prereview.question.ynFuture"
+msgstr "¿Es probable que los resultados conduzcan a futuras investigaciones?"
+
+msgid "plugins.generic.prereview.question.ynReproducibility"
+msgstr "¿Se proporcionan suficientes detalles para permitir la reproducción del estudio?"
+
+msgid "plugins.generic.prereview.question.ynMethods"
+msgstr "¿Los métodos y las estadísticas son adecuados para el análisis?"
+
+msgid "plugins.generic.prereview.question.ynCoherent"
+msgstr "¿Están las principales conclusiones respaldadas por los datos y el análisis?"
+
+msgid "plugins.generic.prereview.question.ynLimitations"
+msgstr "¿Discute el manuscrito las limitaciones?"
+
+msgid "plugins.generic.prereview.question.ynEthics"
+msgstr "¿Los autores han discutido adecuadamente las cuestiones éticas?"
+
+msgid "plugins.generic.prereview.question.ynNewData"
+msgstr "¿El manuscrito incluye datos nuevos?"
+
+msgid "plugins.generic.prereview.question.ynAvailableData"
+msgstr "¿Están disponibles los datos utilizados en el manuscrito?"
+
+msgid "plugins.generic.prereview.question.ynAvailableCode"
+msgstr "¿Está disponible el código utilizado en el manuscrito?"
+
+msgid "plugins.generic.prereview.question.ynRecommend"
+msgstr "¿Recomendaría este manuscrito a otras personas?"
+
+msgid "plugins.generic.prereview.question.ynPeerReview"
+msgstr "¿Recomienda este manuscrito para la revisión por pares?"
+
+

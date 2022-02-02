@@ -1,0 +1,126 @@
+msgid "plugins.generic.prereview.title"
+msgstr "PREreview"
+
+msgid "plugins.generic.prereview.description"
+msgstr "This plugin allows you to give your authors the option to request constructive feedback on their preprint from the PREreview research community (https://prereview.org/reviews)."
+
+msgid "plugins.generic.prereview.apisettings"
+msgstr "Configure access to the PREreview API to request reviews from the PREreview community."
+
+msgid "plugins.generic.prereview.apisettings.title"
+msgstr "API Keys"
+
+msgid "plugins.generic.prereview.apisettings.name"
+msgstr "API" 
+
+msgid "plugins.generic.prereview.apisettings.key"
+msgstr "KEY"
+
+msgid "plugins.generic.prereview.apisettings.option"
+msgstr "PREreview display configuration"
+
+msgid "plugins.generic.prereview.apisettings.optionDescription"
+msgstr "On PREreview, community reviewers can provide rapid and structured feedback in the form of a Rapid PREreview (e.g., ___), and a longer free-formed review, a Full PREreview (e.g., ___)."
+
+msgid "plugins.generic.prereview.apisettings.optionDescription.ask"
+msgstr "What reviews from the PREreview website would you like to be displayed near the preprint?"
+
+msgid "plugins.generic.prereview.apisettings.showrevisions"
+msgstr "Display Rapid PREreviews only"
+
+msgid "plugins.generic.prereview.apisettings.showrevisionsLong"
+msgstr "Display Full PREreviews only"
+
+msgid "plugins.generic.prereview.apisettings.showrevisionsBoth"
+msgstr "Display both Rapid PREreviews and Full PREreviews"
+
+msgid "plugins.generic.prereview.view.message"
+msgstr "No reviews registered"
+
+msgid "plugins.generic.prereview.view.textRapidReview"
+msgstr "Rapid PREreviews"
+
+msgid "plugins.generic.prereview.view.textLongReview"
+msgstr "Full PREreviews"
+
+msgid "plugins.generic.prereview.view.textRequest"
+msgstr "Request"
+
+msgid "plugins.generic.prereview.view.textRequests"
+msgstr "Requests"
+
+msgid "plugins.generic.prereview.view.textViewSite"
+msgstr "View on the PREreview website"
+
+msgid "plugins.generic.prereview.publication.success"
+msgstr "Decision saved successfully"
+
+msgid "plugins.generic.prereview.description.p1"
+msgstr "PREreview is a free and open source preprint review platform, a resource center and convener. Via the PREreview platform, any researcher with an ORCID iD can provide constructive feedback to a preprint."
+
+msgid "plugins.generic.prereview.description.p2"
+msgstr "You can now request feedback from your peers via this plugin and choose to have it openly displayed next to your preprint on this preprint server."
+
+msgid "plugins.generic.prereview.description.p3"
+msgstr "To learn more about how the PREreview platform works, <a href="https://prereview.org/" target=\"_blank\">read here</a>. If you have questions or concerns about what this means, please contact PREreview at contact@prereview.org."
+
+msgid "plugins.generic.prereview.description.buttoncheck"
+msgstr "Yes, please let the PREreview research community know I would like to solicit constructive feedback on my preprint and have it displayed next to my preprint on this preprint server."
+
+msgid "plugins.generic.prereview.description.notdisplay"
+msgstr "Yes, please let the PREreview research community know I would like to receive constructive feedback on my preprint BUT I would NOT like to have it displayed next to my preprint on this server."
+
+msgid "plugins.generic.prereview.description.notsolicit"
+msgstr "No, I do not wish to solicit constructive feedback from the PREreview research community."
+
+msgid "plugins.generic.prereview.semaphore.author"
+msgstr "The author's contribution statement was identified in the document"
+
+msgid "plugins.generic.prereview.semaphore.authorFalse"
+msgstr "No authors identified"
+
+msgid "plugins.generic.prereview.semaphore.orcidTrue"
+msgstr "The ORCID iD of the corresponding author has been correctly identified."
+
+msgid "plugins.generic.prereview.semaphore.orcidFalse"
+msgstr "The ORCID iD of the corresponding author was not identified. "
+
+msgid "plugins.generic.prereview.semaphore.metadata"
+msgstr "The following metadata is not found in all configured languages: "
+
+msgid "plugins.generic.prereview.question.ynNovel"
+msgstr "Are the findings novel?"
+
+msgid "plugins.generic.prereview.question.ynFuture"
+msgstr "Are the results likely to lead to future research?"
+
+msgid "plugins.generic.prereview.question.ynReproducibility"
+msgstr "Is sufficient detail provided to allow reproduction of the study?"
+
+msgid "plugins.generic.prereview.question.ynMethods"
+msgstr "Are the methods and statistics appropriate for the analysis?"
+
+msgid "plugins.generic.prereview.question.ynCoherent"
+msgstr "Are the principal conclusions supported by the data and analysis?"
+
+msgid "plugins.generic.prereview.question.ynLimitations"
+msgstr "Does the manuscript discuss limitations?"
+
+msgid "plugins.generic.prereview.question.ynEthics"
+msgstr "Have the authors adequately discussed ethical concerns?"
+
+msgid "plugins.generic.prereview.question.ynNewData"
+msgstr "Does the manuscript include new data?"
+
+msgid "plugins.generic.prereview.question.ynAvailableData"
+msgstr "Are the data used in the manuscript available?"
+
+msgid "plugins.generic.prereview.question.ynAvailableCode"
+msgstr "Is the code used in the manuscript available?"
+
+msgid "plugins.generic.prereview.question.ynRecommend"
+msgstr "Would you recommend this manuscript to others?"
+
+msgid "plugins.generic.prereview.question.ynPeerReview"
+msgstr "Do you recommend this manuscript for peer review?"
+

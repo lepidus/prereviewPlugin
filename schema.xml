@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schema SYSTEM "../../../lib/pkp/dtd/xmlSchema.dtd">
+
+
+
+<schema version="0.2">
+	<!--
+	  *
+	  * TABLE prereview_settings
+	  *
+	  -->
+	<table name="prereview_settings">
+		<field name="publication_id" type="I8">
+			<NOTNULL/>
+		</field>
+		<field name="setting_name" type="C2" size="255">
+			<NOTNULL/>
+		</field>
+		<field name="setting_value" type="X"/>
+		<field name="status" type="X"/>
+		<field name="views" size="255"/>
+	</table>	
+
+
+</schema>
