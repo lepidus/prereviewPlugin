@@ -1,8 +1,8 @@
 <?php
 import('lib.pkp.classes.plugins.GenericPlugin');
-//TESTING
-define('PREREVIEW_API_CHECK', 'https://prereview2-staging.azurewebsites.net/api/v2/preprints/');
-define('PREREVIEW_URL', 'https://prereview2-staging.azurewebsites.net/preprints/');
+//PREREVIEW SITE
+define('PREREVIEW_API_CHECK', 'https://prereview.org/api/v2/preprints/');
+define('PREREVIEW_URL', 'https://prereview.org/preprints/');
 
 class PrereviewPlugin extends GenericPlugin {
 	public function register($category, $path, $mainContextId = NULL) {
