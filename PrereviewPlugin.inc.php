@@ -20,12 +20,7 @@ class PrereviewPlugin extends GenericPlugin {
 			$templateMgr->addJavaScript('callbackSharingDisplay', $urlj);
 
 			// Do something when the plugin is enabled
-			HookRegistry::register('Schema::get::publication', array($this, 'addToSchema')); //Add schema for radiobuttons
 			HookRegistry::register('Templates::Preprint::Details', array($this, 'callbackSharingDisplay')); // Include information in detail view of OPS
-			HookRegistry::register('submissionsubmitstep4form::display', array($this, 'handleFormDisplaySubmission'));//Include form to submmisions
-			HookRegistry::register('submissionsubmitstep4form::execute', array($this, 'handleFormExecute'));//Save form
-			HookRegistry::register('Template::Workflow::Publication', array($this, 'publicationTemplateData'));//Include form to publications
-			HookRegistry::register('LoadComponentHandler', array($this, 'setupGridHandler'));
 		}
 
 		return $success;
