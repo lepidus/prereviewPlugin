@@ -92,7 +92,7 @@ class PrereviewGridHandler extends GridHandler
      */
     public function updateRequest($args, $request)
     {
-        $result = $request->getUserVar('prereview:authorization');
+        $result = $request->getUserVar('prereviewAuthorization');
         $context = $request->getContext();
         $submission = $this->getSubmission();
         $submissionId = $submission->getId();
@@ -113,16 +113,16 @@ class PrereviewGridHandler extends GridHandler
                 ['contents' => __('common.changesSaved')]
             );
 
+            return http_response_code(200);
         } else {
             $notificationMgr->createTrivialNotification(
                 Application::get()->getRequest()->getUser()->getId(),
                 NOTIFICATION_TYPE_ERROR,
                 ['contents' => __('common.error')]
             );
-        }
-        $path = getenv('HTTP_REFERER').'#publication/prereviewTab';
-        header('Location: '.$path);
 
+            return http_response_code(400);
+        }
     }
 
 

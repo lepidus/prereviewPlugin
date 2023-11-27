@@ -175,10 +175,10 @@ class PrereviewPlugin extends GenericPlugin
 
         foreach($datos_fullreview as $fr) {
             $fullrev[$i] = array(
-                               'id' => $i,
-                               'name' => $fr->authors[0]->name,
-                               'content' => $fr->drafts[0]->contents,
-                        );
+                'id' => $i,
+                'name' => $fr->authors[0]->name,
+                'content' => $fr->drafts[0]->contents,
+            );
 
             $i++;
         }
@@ -200,9 +200,6 @@ class PrereviewPlugin extends GenericPlugin
         $output .= $templateMgr->fetch($this->getTemplateResource('prereview.tpl'));
         return false;
     }
-
-
-
 
     public function handleFormDisplaySubmission($hookName, $args)
     {
@@ -295,10 +292,12 @@ class PrereviewPlugin extends GenericPlugin
         $smarty = &$args[1];
         $output = &$args[2];
         $submission = $smarty->get_template_vars('submission');
+        $selected = $this->getPrereviewSetting($submission->getId())->setting_value;
 
         $smarty->assign([
             'submissionId' => $submission->getId(),
-            'publication' => $this->getPrereviewSetting($submission->getId())->setting_value,
+            'selected' => $selected,
+            'selectedDisplay' => ($selected == 'display' or $selected == 'request')
         ]);
 
         $output .= sprintf(
