@@ -55,23 +55,17 @@ msgstr "Ver no site"
 msgid "plugins.generic.prereview.publication.success"
 msgstr "Decisão salva com sucesso"
 
-msgid "plugins.generic.prereview.description.p1"
-msgstr "PREreview é uma plataforma gratuita e de código aberto, um centro de recursos e uma convocadora. Por meio da plataforma PREreview, qualquer pesquisador com um ORCID iD pode fornecer pareceres construtivos para um preprint."
+msgid "plugins.generic.prereview.option.description"
+msgstr "Você ofereceu o seu preprint para avaliação por pares no PREreview durante o 3° passo da submissão. Você deseja que as avaliações recebidas sejam exibidas junto ao preprint neste servidor?"
 
-msgid "plugins.generic.prereview.description.p2"
-msgstr "Você pode agora solicitar pareceres de seus pares por meio deste plugin e escolher disponibilizá-los publicamente ao lado do seu preprint neste servidor."
+msgid "plugins.generic.prereview.option.select"
+msgstr "Selecione uma opção:"
 
-msgid "plugins.generic.prereview.description.p3"
-msgstr "Para saber mais sobre como a plataforma PREreview funciona, <a href="https://prereview.org/" target=\"_blank\">leia aqui</a>. Se você tem perguntas ou preocupações sobre o que isto significa, por favor entre em contato com o PREreview em contact@prereview.org."
+msgid "plugins.generic.prereview.option.display"
+msgstr "Sim, eu gostaria de exibir as avaliações ao lado do meu preprint neste servidor."
 
-msgid "plugins.generic.prereview.description.buttoncheck"
-msgstr "Sim, por favor permita que a comunidade de pesquisadores PREreview saiba que eu gostaria de solicitar avaliações construtivas para o meu preprint e exibi-las ao lado do meu preprint neste servidor."
-
-msgid "plugins.generic.prereview.description.notdisplay"
-msgstr "Sim, por favor permita que a comunidade de pesquisadores PREreview saiba que eu gostaria de solicitar avaliações construtivas para o meu preprint mas eu NÃO gostaria de exibi-las ao lado do meu preprint neste servidor."
-
-msgid "plugins.generic.prereview.description.notsolicit"
-msgstr "Não, eu não gostaria de solicitar avaliações construtivas à comunidade de pesquisadores PREreview."
+msgid "plugins.generic.prereview.option.notdisplay"
+msgstr "Não, eu não gostaria de exibir as avaliações ao lado do meu preprint neste servidor."
 
 msgid "plugins.generic.prereview.semaphore.author"
 msgstr "The author's contribution statement was identified in the document"

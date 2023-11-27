@@ -55,23 +55,17 @@ msgstr "View on the PREreview website"
 msgid "plugins.generic.prereview.publication.success"
 msgstr "Decision saved successfully"
 
-msgid "plugins.generic.prereview.description.p1"
-msgstr "PREreview is a free and open source preprint review platform, a resource center and convener. Via the PREreview platform, any researcher with an ORCID iD can provide constructive feedback to a preprint."
+msgid "plugins.generic.prereview.option.description"
+msgstr "You offered your preprint for peer review on PREreview during the 3rd submission step. Do you want the reviews received to be displayed next to your preprint on this server?"
 
-msgid "plugins.generic.prereview.description.p2"
-msgstr "You can now request feedback from your peers via this plugin and choose to have it openly displayed next to your preprint on this preprint server."
+msgid "plugins.generic.prereview.option.select"
+msgstr "Select option:"
 
-msgid "plugins.generic.prereview.description.p3"
-msgstr "To learn more about how the PREreview platform works, <a href="https://prereview.org/" target=\"_blank\">read here</a>. If you have questions or concerns about what this means, please contact PREreview at contact@prereview.org."
+msgid "plugins.generic.prereview.option.display"
+msgstr "Yes, I'd like to have the reviews displayed next to my preprint on this server."
 
-msgid "plugins.generic.prereview.description.buttoncheck"
-msgstr "Yes, please let the PREreview research community know I would like to solicit constructive feedback on my preprint and have it displayed next to my preprint on this preprint server."
-
-msgid "plugins.generic.prereview.description.notdisplay"
-msgstr "Yes, please let the PREreview research community know I would like to receive constructive feedback on my preprint BUT I would NOT like to have it displayed next to my preprint on this server."
-
-msgid "plugins.generic.prereview.description.notsolicit"
-msgstr "No, I do not wish to solicit constructive feedback from the PREreview research community."
+msgid "plugins.generic.prereview.option.notdisplay"
+msgstr "No, I wouldn't like to have the reviews displayed next to my preprint on this server."
 
 msgid "plugins.generic.prereview.semaphore.author"
 msgstr "The author's contribution statement was identified in the document"

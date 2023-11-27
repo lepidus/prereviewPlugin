@@ -55,23 +55,17 @@ msgstr "Ver en el sitio de PREreview"
 msgid "plugins.generic.prereview.publication.success"
 msgstr "Datos guardados correctamente"
 
-msgid "plugins.generic.prereview.description.p1"
-msgstr "PREreview es una plataforma de revisión de preprints gratuita y de código abierto, un centro de recursos y un convocante. A través de la plataforma PREreview, cualquier investigador con un ORCID puede aportar comentarios constructivos a un preprint."
+msgid "plugins.generic.prereview.option.description"
+msgstr "Ha ofrecido su preprint para revisión por pares en PREreview durante el tercer paso de envío. ¿Desea que los comentarios recibidos se muestren junto al preprint en este servidor?"
 
-msgid "plugins.generic.prereview.description.p2"
-msgstr "Ahora puede solicitar los comentarios de sus compañeros a través de este plugin y elegir que se muestren abiertamente junto a su preprint en este servidor de preprints."
+msgid "plugins.generic.prereview.option.select"
+msgstr "Seleccione una opción:"
 
-msgid "plugins.generic.prereview.description.p3"
-msgstr "Para saber más sobre el funcionamiento de la plataforma PREreview, <a href="https://prereview.org/" target=\"_blank\">lea aquí</a>. Si tiene preguntas o dudas sobre lo que esto significa, póngase en contacto con PREreview en contact@prereview.org."
+msgid "plugins.generic.prereview.option.display"
+msgstr "Sí, me gustaría mostrar los comentarios junto a mi preprint en este servidor."
 
-msgid "plugins.generic.prereview.description.buttoncheck"
-msgstr "Sí, por favor, haga saber a la comunidad de PREreview que me gustaría solicitar comentarios constructivos sobre mi preprint y que se muestren junto a mi preprint."
-
-msgid "plugins.generic.prereview.description.notdisplay"
-msgstr "Sí, por favor, haga saber a la comunidad investigadora de PREreview que me gustaría recibir comentarios constructivos sobre mi preprint PERO NO me gustaría que se mostraran junto a mi preprint."
-
-msgid "plugins.generic.prereview.description.notsolicit"
-msgstr "No, no deseo solicitar comentarios constructivos de la comunidad investigadora de PREreview."
+msgid "plugins.generic.prereview.option.notdisplay"
+msgstr "No, no me gustaría mostrar los comentarios junto a mi preprint en este servidor."
 
 msgid "plugins.generic.prereview.semaphore.author"
 msgstr "Se identificó la declaración de contribución del autor"
