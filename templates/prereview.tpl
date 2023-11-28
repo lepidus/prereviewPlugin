@@ -1,5 +1,5 @@
 {* PREreview content in the OPS detail view *}
-{if $authorization == 'display' or $authorization == 'request'}
+{if $authorization == 'display'}
 <div class="item prereview">
     <div  class="value" >
     {if $status =='ok'}

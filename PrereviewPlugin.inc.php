@@ -271,8 +271,7 @@ class PrereviewPlugin extends GenericPlugin
         if ($submissionRequestedForPrereview) {
             $smarty->assign([
                 'submissionId' => $submission->getId(),
-                'selected' => $selected,
-                'selectedDisplay' => ($selected == 'display' or $selected == 'request')
+                'selected' => $selected
             ]);
 
             $output .= sprintf(

@@ -15,16 +15,29 @@ class PrereviewSchemaMigration extends Migration
      */
     public function up()
     {
+        if (!Capsule::schema()->hasTable('prereview_settings')) {
+            Capsule::schema()->create('prereview_settings', function (Blueprint $table) {
+                $table->bigInteger('publication_id');
+                $table->string('setting_name', 255);
+                $table->longText('setting_value')->nullable();
+                $table->longText('status')->nullable();
+                $table->longText('views')->nullable();
+            });
+        }
 
+        $this->migrateLegacySettings();
+    }
 
-        // prereview_settings
-        Capsule::schema()->create('prereview_settings', function (Blueprint $table) {
-            $table->bigInteger('publication_id');
-            $table->string('setting_name', 255);
-            $table->longText('setting_value')->nullable();
-            $table->longText('status')->nullable();
-            $table->longText('views')->nullable();
-        });
+    private function migrateLegacySettings()
+    {
+        Capsule::table('prereview_settings')
+            ->where('setting_name', 'prereview:authorization')
+            ->where('setting_value', 'request')
+            ->update(['setting_value' => 'display']);
 
+        Capsule::table('prereview_settings')
+            ->where('setting_name', 'prereview:authorization')
+            ->where('setting_value', 'no')
+            ->delete();
     }
 }

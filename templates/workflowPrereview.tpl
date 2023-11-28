@@ -12,7 +12,7 @@
 				{translate key="plugins.generic.prereview.option.select"}<span class="req">*</span>
 			</h3>
 
-			{fbvElement type="radio" label="plugins.generic.prereview.option.display" value="display" id="prereviewDisplay" name="prereviewAuthorization" required="true" checked=$selectedDisplay}
+			{fbvElement type="radio" label="plugins.generic.prereview.option.display" value="display" id="prereviewDisplay" name="prereviewAuthorization" required="true" checked=$selected|compare:"display"}
 			{fbvElement type="radio" label="plugins.generic.prereview.option.notdisplay" value="notdisplay" id="prereviewNotdisplay" name="prereviewAuthorization" checked=$selected|compare:"notdisplay"}
 		{/fbvFormSection}
 
