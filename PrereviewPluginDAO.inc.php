@@ -9,6 +9,9 @@
  * @brief Operations to add save settings for each item.
  */
 
+import('lib.pkp.classes.db.DAO');
+
+use Illuminate\Database\Capsule\Manager as Capsule;
 
 class PrereviewPluginDAO extends DAO
 {
@@ -83,5 +86,13 @@ class PrereviewPluginDAO extends DAO
         return $returner;
     }
 
+    public function requestedForPrereview(int $submissionId): bool
+    {
+        $count = Capsule::table('review_offer_preferences')
+            ->where('submission_id', $submissionId)
+            ->where('service_url', 'LIKE', '%prereview%')
+            ->count();
 
+        return ($count > 0);
+    }
 }

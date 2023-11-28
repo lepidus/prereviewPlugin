@@ -1,6 +1,7 @@
 <?php
 
 import('lib.pkp.classes.plugins.GenericPlugin');
+import('plugins.generic.prereviewPlugin.PrereviewPluginDAO');
 //PREREVIEW SITE
 define('PREREVIEW_API_CHECK', 'https://prereview.org/api/v2/preprints/');
 define('PREREVIEW_URL', 'https://prereview.org/preprints/');
@@ -32,7 +33,6 @@ class PrereviewPlugin extends GenericPlugin
         }
 
         return $success;
-
     }
 
     /**
@@ -152,7 +152,7 @@ class PrereviewPlugin extends GenericPlugin
         $idPreprint = $request->getRouter()->getHandler()->preprint->_data['id'];
         $idPreprint = ((int) $idPreprint);
         $doi = $this->getDoi($idPreprint);
-        $doi_result = "doi-".str_replace("/", "-", strtolower($doi));
+        $doi_result = "doi-" . str_replace("/", "-", strtolower($doi));
         $url = PREREVIEW_API_CHECK . $doi_result;
 
         $ch = curl_init();
@@ -173,7 +173,7 @@ class PrereviewPlugin extends GenericPlugin
         $datos_fullreview = $datos->data[0]->fullReviews;
         $datos_rapidreview = $datos->data[0]->rapidReviews;
 
-        foreach($datos_fullreview as $fr) {
+        foreach ($datos_fullreview as $fr) {
             $fullrev[$i] = array(
                 'id' => $i,
                 'name' => $fr->authors[0]->name,
@@ -186,7 +186,7 @@ class PrereviewPlugin extends GenericPlugin
         $templateMgr->assign(
             array(
                 'status' => $datos->status,
-                'url' => PREREVIEW_URL.$doi_result,
+                'url' => PREREVIEW_URL . $doi_result,
                 'numFullReviews' => count($datos_fullreview),
                 'numRapidReviews' => count($datos_rapidreview),
                 'numRequests' => count($datos->data[0]->requests),
@@ -206,39 +206,30 @@ class PrereviewPlugin extends GenericPlugin
         $request = PKPApplication::get()->getRequest();
         $context = $request->getContext();
         $templateMgr = TemplateManager::getManager($request);
-        switch ($hookName) {
-            case 'submissionsubmitstep4form::display':
-                $authorForm = &$args[0];
-                $supportedSubmissionLocales = $context->getSupportedSubmissionLocales();
-                $localeNames = AppLocale::getAllLocales();
-                $locales = array_map(function ($localeKey) use ($localeNames) {
-                    return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
-                }, $supportedSubmissionLocales);
 
-                $templateMgr->registerFilter("output", array($this, 'metadataForm'));
+        $submission = $args[0]->submission;
+        $prereviewDao = new PrereviewPluginDAO();
+        $submissionRequestedForPrereview = $prereviewDao->requestedForPrereview($submission->getId());
 
-                break;
+        if ($submissionRequestedForPrereview) {
+            $templateMgr->registerFilter("output", array($this, 'metadataForm'));
         }
-        return false;
 
+        return false;
     }
 
 
     public function handleFormExecute($hookName, $params)
     {
-        $props = &$params[0];
-        $request = Application::get()->getRequest();
-        $this->import('PrereviewPluginDAO');
-        $prereview = new PrereviewPluginDAO();
-        DAORegistry::registerDAO('PrereviewPluginDAO', $prereview);
-        $id = $props->submission->_data['id'];
-        $request = $_POST['prereview:authorization'];
-        if(empty($request)) {
-            $request = 'no';
-        }
-        $preDao = DAORegistry::getDAO('PrereviewPluginDAO');
-        $preDao->insert($id, 'prereview:authorization', $request);
+        $submission = &$params[0]->submission;
+        $prereviewDao = new PrereviewPluginDAO();
+        $submissionRequestedForPrereview = $prereviewDao->requestedForPrereview($submission->getId());
 
+        if ($submissionRequestedForPrereview) {
+            $optionRequested = $_POST['prereview:authorization'];
+
+            $prereviewDao->insert($submission->getId(), 'prereview:authorization', $optionRequested);
+        }
     }
 
     /**
@@ -303,7 +294,6 @@ class PrereviewPlugin extends GenericPlugin
         $output .= sprintf(
             $smarty->fetch($this->getTemplateResource('workflowPrereview.tpl'))
         );
-
     }
 
 
@@ -322,8 +312,6 @@ class PrereviewPlugin extends GenericPlugin
             $ynAvailableCode[$l] = $rapidReviews[$l]->ynAvailableCode;
             $ynRecommend[$l] = $rapidReviews[$l]->ynRecommend;
             $ynPeerReview[$l] = $rapidReviews[$l]->ynPeerReview;
-
-
         }
         $rapidrev = array(
             'ynNovel' => $this->getValues($ynNovel),
@@ -338,7 +326,6 @@ class PrereviewPlugin extends GenericPlugin
             'ynAvailableCode' => $this->getValues($ynAvailableCode),
             'ynRecommend' => $this->getValues($ynRecommend),
             'ynPeerReview' => $this->getValues($ynPeerReview),
-
         );
 
         return $rapidrev;
@@ -427,6 +414,7 @@ class PrereviewPlugin extends GenericPlugin
         $result = $preDao->_getPrereviewData($id, $name);
         return $result;
     }
+
     public function getPrereviewSetting($id)
     {
         $this->import('PrereviewPluginDAO');
@@ -450,7 +438,4 @@ class PrereviewPlugin extends GenericPlugin
         $submission = $submission->getData('publications')[0]->getData('pub-id::doi');
         return $submission;
     }
-
-
-
 }
