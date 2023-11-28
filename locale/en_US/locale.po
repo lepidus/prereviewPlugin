@@ -56,7 +56,7 @@ msgid "plugins.generic.prereview.publication.success"
 msgstr "Decision saved successfully"
 
 msgid "plugins.generic.prereview.option.description"
-msgstr "You offered your preprint for peer review on PREreview during the 3rd submission step. Do you want the reviews received to be displayed next to your preprint on this server?"
+msgstr "You offered your preprint for peer review on PREreview. Do you want any reviews received to be displayed next to your preprint on this server?"
 
 msgid "plugins.generic.prereview.option.select"
 msgstr "Select option:"

@@ -56,7 +56,7 @@ msgid "plugins.generic.prereview.publication.success"
 msgstr "Datos guardados correctamente"
 
 msgid "plugins.generic.prereview.option.description"
-msgstr "Ha ofrecido su preprint para revisión por pares en PREreview durante el tercer paso de envío. ¿Desea que los comentarios recibidos se muestren junto al preprint en este servidor?"
+msgstr "Ha ofrecido su preprint para revisión por pares en PREreview. ¿Desea que los comentarios recibidos se muestren junto al preprint en este servidor?"
 
 msgid "plugins.generic.prereview.option.select"
 msgstr "Seleccione una opción:"

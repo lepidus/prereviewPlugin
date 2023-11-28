@@ -260,40 +260,25 @@ class PrereviewPlugin extends GenericPlugin
      */
     public function publicationTemplateData(string $hookname, array $args): void
     {
-        /**
-         * @var $templateMgr TemplateManager
-         * @var $submission Submission
-         * @var $submissionFileDao SubmissionFileDAO
-         * @var $submissionFile SubmissionFile
-         */
-
-        $templateMgr = $args[1];
-        $request = $this->getRequest();
-        $context = $request->getContext();
-        $submission = $templateMgr->getTemplateVars('submission');
-        $latestPublication = $submission->getLatestPublication();
-        $latestPublicationApiUrl = $request->getDispatcher()->url($request, ROUTE_API, $context->getData('urlPath'), 'submissions/' . $submission->getId() . '/publications/' . $latestPublication->getId());
-
-        $supportedSubmissionLocales = $context->getSupportedSubmissionLocales();
-        $localeNames = AppLocale::getAllLocales();
-        $locales = array_map(function ($localeKey) use ($localeNames) {
-            return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
-        }, $supportedSubmissionLocales);
-
         $smarty = &$args[1];
         $output = &$args[2];
-        $submission = $smarty->get_template_vars('submission');
+        $submission = $smarty->getTemplateVars('submission');
         $selected = $this->getPrereviewSetting($submission->getId())->setting_value;
 
-        $smarty->assign([
-            'submissionId' => $submission->getId(),
-            'selected' => $selected,
-            'selectedDisplay' => ($selected == 'display' or $selected == 'request')
-        ]);
+        $prereviewDao = new PrereviewPluginDAO();
+        $submissionRequestedForPrereview = $prereviewDao->requestedForPrereview($submission->getId());
 
-        $output .= sprintf(
-            $smarty->fetch($this->getTemplateResource('workflowPrereview.tpl'))
-        );
+        if ($submissionRequestedForPrereview) {
+            $smarty->assign([
+                'submissionId' => $submission->getId(),
+                'selected' => $selected,
+                'selectedDisplay' => ($selected == 'display' or $selected == 'request')
+            ]);
+
+            $output .= sprintf(
+                $smarty->fetch($this->getTemplateResource('workflowPrereview.tpl'))
+            );
+        }
     }
 
 
