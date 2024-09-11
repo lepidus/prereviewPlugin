@@ -187,9 +187,9 @@ class PrereviewPlugin extends GenericPlugin
             array(
                 'status' => $datos->status,
                 'url' => PREREVIEW_URL . $doi_result,
-                'numFullReviews' => count($datos_fullreview),
-                'numRapidReviews' => count($datos_rapidreview),
-                'numRequests' => count($datos->data[0]->requests),
+                'numFullReviews' => !empty($datos_fullreview) ? count($datos_fullreview) : 0,
+                'numRapidReviews' => !empty($datos_rapidreview) ? count($datos_rapidreview) : 0,
+                'numRequests' => !empty($datos->data[0]->requests) ? count($datos->data[0]->requests) : 0,
                 'fullReviews' => $fullrev,
                 'showReviews' => $showRevisions,
                 'showrevisionsLong' => $showrevisionsLong,
@@ -283,19 +283,21 @@ class PrereviewPlugin extends GenericPlugin
 
     public function getRapidReviews($rapidReviews)
     {
-        for ($l = 0; $l < count($rapidReviews); $l++) {
-            $ynNovel[$l] = $rapidReviews[$l]->ynNovel;
-            $ynFuture[$l] = $rapidReviews[$l]->ynFuture;
-            $ynReproducibility[$l] = $rapidReviews[$l]->ynReproducibility;
-            $ynMethods[$l] = $rapidReviews[$l]->ynMethods;
-            $ynCoherent[$l] = $rapidReviews[$l]->ynCoherent;
-            $ynLimitations[$l] = $rapidReviews[$l]->ynLimitations;
-            $ynEthics[$l] = $rapidReviews[$l]->ynEthics;
-            $ynNewData[$l] = $rapidReviews[$l]->ynNewData;
-            $ynAvailableData[$l] = $rapidReviews[$l]->ynAvailableData;
-            $ynAvailableCode[$l] = $rapidReviews[$l]->ynAvailableCode;
-            $ynRecommend[$l] = $rapidReviews[$l]->ynRecommend;
-            $ynPeerReview[$l] = $rapidReviews[$l]->ynPeerReview;
+        if (!empty($rapidReviews)) {
+            for ($l = 0; $l < count($rapidReviews); $l++) {
+                $ynNovel[$l] = $rapidReviews[$l]->ynNovel;
+                $ynFuture[$l] = $rapidReviews[$l]->ynFuture;
+                $ynReproducibility[$l] = $rapidReviews[$l]->ynReproducibility;
+                $ynMethods[$l] = $rapidReviews[$l]->ynMethods;
+                $ynCoherent[$l] = $rapidReviews[$l]->ynCoherent;
+                $ynLimitations[$l] = $rapidReviews[$l]->ynLimitations;
+                $ynEthics[$l] = $rapidReviews[$l]->ynEthics;
+                $ynNewData[$l] = $rapidReviews[$l]->ynNewData;
+                $ynAvailableData[$l] = $rapidReviews[$l]->ynAvailableData;
+                $ynAvailableCode[$l] = $rapidReviews[$l]->ynAvailableCode;
+                $ynRecommend[$l] = $rapidReviews[$l]->ynRecommend;
+                $ynPeerReview[$l] = $rapidReviews[$l]->ynPeerReview;
+            }
         }
         $rapidrev = array(
             'ynNovel' => $this->getValues($ynNovel),
@@ -317,43 +319,43 @@ class PrereviewPlugin extends GenericPlugin
 
     public function getValues($value)
     {
-        $yes = 0;
-        $no = 0;
-        $unsure = 0;
-        $na = 0;
         $result = "";
-        $total = (100 / count($value));
+        if (!empty($value)) {
+            $yes = 0;
+            $no = 0;
+            $unsure = 0;
+            $na = 0;
+            $total = (100 / count($value));
 
-        for ($v = 0; $v < count($value); $v++) {
-            switch ($value[$v]) {
-                case "yes":
-                    $yes = $yes + $total;
-                    break;
-                case "no":
-                    $no = $no + $total;
-                    break;
-                case "unsure":
-                    $unsure = $unsure + $total;
-                    break;
-                case "N/A":
-                    $na = $na + $total;
-                    break;
+            for ($v = 0; $v < count($value); $v++) {
+                switch ($value[$v]) {
+                    case "yes":
+                        $yes = $yes + $total;
+                        break;
+                    case "no":
+                        $no = $no + $total;
+                        break;
+                    case "unsure":
+                        $unsure = $unsure + $total;
+                        break;
+                    case "N/A":
+                        $na = $na + $total;
+                        break;
+                }
+            }
+            if ($yes != 0) {
+                $result = $result . '<div class="yes" style="width:' . $yes . '%;"><p>' . $yes . '%</p></div>';
+            }
+            if ($unsure != 0) {
+                $result = $result . '<div class="unsure" style="width:' . $unsure . '%;"><p>' . $unsure . '%</p></div>';
+            }
+            if ($na != 0) {
+                $result = $result . '<div class="na" style="width:' . $na . '%;"><p>' . $na . '%</p></div>';
+            }
+            if ($no != 0) {
+                $result = $result . '<div class="no" style="width:' . $no . '%;"><p>' . $no . '%</p></div>';
             }
         }
-        if ($yes != 0) {
-            $result = $result . '<div class="yes" style="width:' . $yes . '%;"><p>' . $yes . '%</p></div>';
-        }
-        if ($unsure != 0) {
-            $result = $result . '<div class="unsure" style="width:' . $unsure . '%;"><p>' . $unsure . '%</p></div>';
-        }
-        if ($na != 0) {
-            $result = $result . '<div class="na" style="width:' . $na . '%;"><p>' . $na . '%</p></div>';
-        }
-        if ($no != 0) {
-            $result = $result . '<div class="no" style="width:' . $no . '%;"><p>' . $no . '%</p></div>';
-        }
-
-
         return $result;
     }
 
